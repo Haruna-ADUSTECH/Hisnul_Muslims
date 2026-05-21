@@ -1,0 +1,79 @@
+{
+  "name": "Hisn al-Muslim — Fortress of the Muslim",
+  "short_name": "Hisn al-Muslim",
+  "description": "Complete Book of Islamic Remembrance — حصن المسلم. Authentic du'as from the Qur'an and Sunnah for every occasion.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1a0e05",
+  "theme_color": "#1a0e05",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["education", "lifestyle", "books"],
+  "icons": [
+    { "src": "icons/icon-72.png",   "sizes": "72x72",   "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-96.png",   "sizes": "96x96",   "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-128.png",  "sizes": "128x128", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-144.png",  "sizes": "144x144", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-152.png",  "sizes": "152x152", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-192.png",  "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-384.png",  "sizes": "384x384", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png",  "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/home.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Home — Table of Contents"
+    },
+    {
+      "src": "screenshots/morning.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Morning Adhkar"
+    },
+    {
+      "src": "screenshots/evening.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Evening Adhkar"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Morning Adhkar",
+      "short_name": "Morning",
+      "description": "أذكار الصباح — Morning Remembrance",
+      "url": "/index.html?chapter=morning",
+      "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Evening Adhkar",
+      "short_name": "Evening",
+      "description": "أذكار المساء — Evening Remembrance",
+      "url": "/index.html?chapter=evening",
+      "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Before Sleeping",
+      "short_name": "Sleep",
+      "description": "أذكار النوم — Sleep Adhkar",
+      "url": "/index.html?chapter=sleep",
+      "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "After Prayer",
+      "short_name": "After Salah",
+      "description": "أذكار بعد الصلاة — Post-Prayer Adhkar",
+      "url": "/index.html?chapter=after-prayer",
+      "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": []
+}
